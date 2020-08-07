@@ -27,7 +27,7 @@
 }
 
 - (void)hehe {
-    
+    NSLog(@"da");
 }
 
 @end
