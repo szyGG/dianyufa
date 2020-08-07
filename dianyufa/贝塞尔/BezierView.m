@@ -25,6 +25,7 @@
     [path10 moveToPoint:CGPointMake(50, 550)];
     [path10 addCurveToPoint:CGPointMake(300, 550) controlPoint1:CGPointMake(150, 450) controlPoint2:CGPointMake(250, 600)];
     [path10 stroke];
+    
 }
 
 
