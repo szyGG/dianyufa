@@ -17,6 +17,7 @@
     // Drawing code
 }
 */
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -28,6 +29,9 @@
 
 - (void)hehe {
     NSLog(@"da");
+}
+-(void)xuxu {
+    
 }
 
 @end
