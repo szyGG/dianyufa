@@ -1,0 +1,6 @@
+framework module Pods_dianyufa_dianyufaUITests {
+  umbrella header "Pods-dianyufa-dianyufaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

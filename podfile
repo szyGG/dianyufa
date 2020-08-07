@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'dianyufa' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for dianyufa
+
+  target 'dianyufaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'dianyufaUITests' do
+    # Pods for testing
+  end
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'SocketRocket'
+pod 'Masonry'
+end
