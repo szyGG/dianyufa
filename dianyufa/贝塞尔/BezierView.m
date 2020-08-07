@@ -5,6 +5,7 @@
 //  Created by 史宗运 on 2020/8/5.
 //  Copyright © 2020 史宗运. All rights reserved.
 //
+
 #define kLineW ScreenWidth-10*2
 #define kMargin 10
 #define MARGIN            30   // 坐标轴与画布间距
