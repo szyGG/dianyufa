@@ -21,9 +21,13 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
+        [self hehe];
     }
     return self;
+}
+
+- (void)hehe {
+    
 }
 
 @end
