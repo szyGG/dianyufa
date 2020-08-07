@@ -29,5 +29,8 @@
 - (void)hehe {
     
 }
+-(void)xuxu {
+    
+}
 
 @end
