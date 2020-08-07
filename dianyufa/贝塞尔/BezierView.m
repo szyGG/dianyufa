@@ -9,6 +9,7 @@
 #define kMargin 10
 #define MARGIN            30   // 坐标轴与画布间距
 #define Y_EVERY_MARGIN    20   // y轴每一个值的间隔数
+
 #import "BezierView.h"
 
 @implementation BezierView

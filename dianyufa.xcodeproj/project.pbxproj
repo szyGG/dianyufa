@@ -23,6 +23,7 @@
 		5051BC2D2429B9F7001E7FCC /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5051BC2C2429B9F7001E7FCC /* GCDViewController.m */; };
 		50636FBE24DA956900680020 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50636FBD24DA956900680020 /* BezierViewController.m */; };
 		50636FC124DA973200680020 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50636FC024DA973200680020 /* BezierView.m */; };
+		50B3EF0224DD26F3006BC152 /* ceshiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B3EF0124DD26F3006BC152 /* ceshiView.m */; };
 		50BB38DD243D7CA700BDB50D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50BB38DB243D7CA700BDB50D /* Model.xcdatamodeld */; };
 		50D1982A2404C1C90007BE50 /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D198282404C1C90007BE50 /* GoodsTableViewCell.m */; };
 		50D1982D2404E8B50007BE50 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D1982C2404E8B50007BE50 /* BaseTableViewController.m */; };
@@ -115,6 +116,8 @@
 		50636FC224DA984600680020 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		50636FC324DA986C00680020 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		507B01951FD09B6F8E4624E9 /* Pods_dianyufa_dianyufaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dianyufa_dianyufaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B3EF0024DD26F3006BC152 /* ceshiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ceshiView.h; sourceTree = "<group>"; };
+		50B3EF0124DD26F3006BC152 /* ceshiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiView.m; sourceTree = "<group>"; };
 		50BB38DC243D7CA700BDB50D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		50BB38DE243D7DDC00BDB50D /* dianyufa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dianyufa-Bridging-Header.h"; sourceTree = "<group>"; };
 		50D198282404C1C90007BE50 /* GoodsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewCell.m; sourceTree = "<group>"; };
@@ -237,6 +240,7 @@
 		50156A3423BEDA41003E485F /* dianyufa */ = {
 			isa = PBXGroup;
 			children = (
+				50B3EEFF24DD26DB006BC152 /* 测试 */,
 				50636FBB24DA953E00680020 /* 贝塞尔 */,
 				50BB38D4243D7BD300BDB50D /* coredata */,
 				50DEC599243475370051C2D3 /* 正则 */,
@@ -306,6 +310,15 @@
 				50636FC024DA973200680020 /* BezierView.m */,
 			);
 			path = "贝塞尔";
+			sourceTree = "<group>";
+		};
+		50B3EEFF24DD26DB006BC152 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				50B3EF0024DD26F3006BC152 /* ceshiView.h */,
+				50B3EF0124DD26F3006BC152 /* ceshiView.m */,
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 		50BB38D4243D7BD300BDB50D /* coredata */ = {
@@ -788,6 +801,7 @@
 				50D1982D2404E8B50007BE50 /* BaseTableViewController.m in Sources */,
 				50DEC59D243475520051C2D3 /* zhengZeViewController.m in Sources */,
 				50636FBE24DA956900680020 /* BezierViewController.m in Sources */,
+				50B3EF0224DD26F3006BC152 /* ceshiView.m in Sources */,
 				50D19851240665AD0007BE50 /* InputFather.m in Sources */,
 				50156A3723BEDA41003E485F /* AppDelegate.m in Sources */,
 				50D1987E2411D96A0007BE50 /* OCAbstractClass.m in Sources */,
