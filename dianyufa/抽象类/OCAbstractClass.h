@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)sendQuit:(NSString *) Id;
 
 
+
 @end
 
 NS_ASSUME_NONNULL_END
