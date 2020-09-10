@@ -24,6 +24,8 @@
     
     
     
+    
+    
     // 11.绘制三次贝塞尔曲线
     UIBezierPath *path10 = [UIBezierPath bezierPath];
     [path10 moveToPoint:CGPointMake(50, 550)];
