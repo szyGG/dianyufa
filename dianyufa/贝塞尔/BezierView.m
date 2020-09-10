@@ -20,7 +20,7 @@
 
 - (void)drawRect:(CGRect)rect {
     [[UIColor orangeColor] set];
-    
+    int a;
     
     
     
