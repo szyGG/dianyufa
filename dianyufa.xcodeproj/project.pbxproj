@@ -23,6 +23,7 @@
 		5051BC2D2429B9F7001E7FCC /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5051BC2C2429B9F7001E7FCC /* GCDViewController.m */; };
 		50636FBE24DA956900680020 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50636FBD24DA956900680020 /* BezierViewController.m */; };
 		50636FC124DA973200680020 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50636FC024DA973200680020 /* BezierView.m */; };
+		506B745725358CE0000B25A8 /* BaseTableViewController+title.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B745625358CE0000B25A8 /* BaseTableViewController+title.m */; };
 		50B3EF0224DD26F3006BC152 /* ceshiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B3EF0124DD26F3006BC152 /* ceshiView.m */; };
 		50BB38DD243D7CA700BDB50D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50BB38DB243D7CA700BDB50D /* Model.xcdatamodeld */; };
 		50D1982A2404C1C90007BE50 /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D198282404C1C90007BE50 /* GoodsTableViewCell.m */; };
@@ -115,6 +116,8 @@
 		50636FC024DA973200680020 /* BezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
 		50636FC224DA984600680020 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		50636FC324DA986C00680020 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		506B745525358CE0000B25A8 /* BaseTableViewController+title.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseTableViewController+title.h"; sourceTree = "<group>"; };
+		506B745625358CE0000B25A8 /* BaseTableViewController+title.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseTableViewController+title.m"; sourceTree = "<group>"; };
 		507B01951FD09B6F8E4624E9 /* Pods_dianyufa_dianyufaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dianyufa_dianyufaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B3EF0024DD26F3006BC152 /* ceshiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ceshiView.h; sourceTree = "<group>"; };
 		50B3EF0124DD26F3006BC152 /* ceshiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiView.m; sourceTree = "<group>"; };
@@ -407,6 +410,8 @@
 				502670E123CEAC8C006ECFCA /* SZYTableViewController.m */,
 				50D1982B2404E8B50007BE50 /* BaseTableViewController.h */,
 				50D1982C2404E8B50007BE50 /* BaseTableViewController.m */,
+				506B745525358CE0000B25A8 /* BaseTableViewController+title.h */,
+				506B745625358CE0000B25A8 /* BaseTableViewController+title.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -794,6 +799,7 @@
 				502670EA23D0044E006ECFCA /* ViewController.m in Sources */,
 				50D198342406024B0007BE50 /* NotificatViewController.m in Sources */,
 				50D1983B24063A9A0007BE50 /* SZYShareManage.m in Sources */,
+				506B745725358CE0000B25A8 /* BaseTableViewController+title.m in Sources */,
 				50D198812411DDE30007BE50 /* AbstractViewController.m in Sources */,
 				50D1985B240678B00007BE50 /* CeLueViewController.m in Sources */,
 				50D19868240766580007BE50 /* AnimalFactory.m in Sources */,
