@@ -32,6 +32,7 @@
     self.bigTitle = @"d";
     
     self.numTitle = 1;
+    
     // Do any additional setup after loading the view.
 }
 
