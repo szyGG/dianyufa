@@ -30,7 +30,9 @@
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tongzhi) name:@"tongzhi" object:nil];
     [self setUI];
     self.bigTitle = @"d";
+    
     self.numTitle = 1;
+    
     // Do any additional setup after loading the view.
 }
 
