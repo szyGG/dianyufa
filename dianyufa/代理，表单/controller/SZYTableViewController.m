@@ -31,6 +31,12 @@
     [self setUI];
     self.bigTitle = @"qqq";
     self.bigTitle = @"d";
+    NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"szy.plist"];
+    NSLog(@"%@",path);
+    NSMutableArray *a = [NSMutableArray array];
+    [a addObject:@"da"];
+    [NSKeyedArchiver archiveRootObject:a toFile:path];
+    NSMutableArray *array = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
     
     self.numTitle = 1;
     
