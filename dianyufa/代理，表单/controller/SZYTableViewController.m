@@ -26,6 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // NSDictionary* myuserListInfo = [SignetManager getUserList];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tongzhi) name:@"tongzhi" object:nil];
     [self setUI];
